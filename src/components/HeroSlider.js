@@ -55,7 +55,7 @@ function HeroSlider() {
               <img src={slide.image} alt={slide.title} className="w-full h-full object-cover"/>
               <div className="absolute inset-0 custom-bg-overlay"/>
             </div>
-            <div className="relative h-full flex flex-col items-center justify-center px-4 text-center" data-aos="zoom-in">
+            <div className="relative h-full flex flex-col items-center justify-center px-4 text-center" >
               <framer_motion_1.motion.h1 initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.2 }} className="font-['Playfair_Display'] text-white text-3xl md:text-5xl lg:text-[80px] max-w-[90%] lg:max-w-[982px] leading-tight mb-6 ">
                 {slide.title}
               </framer_motion_1.motion.h1>
@@ -63,10 +63,10 @@ function HeroSlider() {
                 {slide.description}
               </framer_motion_1.motion.p>
               <framer_motion_1.motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.6 }} className="flex flex-col sm:flex-row gap-3">
-                <button onClick={function () { return scrollToSection('footer'); }} className="bg-[#968969] px-8 lg:px-10 py-4 lg:py-5 text-[#faf6f3] uppercase hover:bg-[#7a6d54] transition-colors" data-aos="zoom-in">
+                <button onClick={function () { return scrollToSection('footer'); }} className="bg-[#968969] px-8 lg:px-10 py-4 lg:py-5 text-[#faf6f3] uppercase hover:bg-[#7a6d54] transition-colors">
                   Let's Connect
                 </button>
-                <button onClick={function () { return scrollToSection('gallery'); }} className="bg-white px-8 lg:px-10 py-4 lg:py-5 text-[#968968] uppercase hover:bg-gray-100 transition-colors" data-aos="zoom-in">
+                <button onClick={function () { return scrollToSection('gallery'); }} className="bg-white px-8 lg:px-10 py-4 lg:py-5 text-[#968968] uppercase hover:bg-gray-100 transition-colors">
                   View Gallery
                 </button>
               </framer_motion_1.motion.div>
