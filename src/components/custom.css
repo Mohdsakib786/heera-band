@@ -1,0 +1,5 @@
+/* custom-css */
+.custom-bg-overlay {
+	backdrop-filter: blur(2px);
+	background-image: linear-gradient(to bottom, #00000087, #00000005);
+}
