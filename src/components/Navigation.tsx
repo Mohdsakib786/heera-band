@@ -23,7 +23,7 @@ export function Navigation() {
   };
 
   const handleContactClick = () => {
-    window.location.href = 'tel:+919876543210';
+    window.location.href = 'tel:+919639104422 ';
   };
 
   return (

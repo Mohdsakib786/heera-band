@@ -80,18 +80,18 @@ export function Footer() {
               </div>
               <div className="flex flex-col gap-4">
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919639104422"
                   className="flex items-center gap-3 text-black hover:text-[#968969] transition-colors"
                 >
                   <Phone size={20} />
-                  <span>+91 98765 43210</span>
+                  <span>+91 9639104422</span>
                 </a>
                 <a
                   href="mailto:info@Herraband.com"
                   className="flex items-center gap-3 text-black hover:text-[#968969] transition-colors"
                 >
                   <Mail size={20} />
-                  <span>info@Herraband.com</span>
+                  <span>info@herraband.com</span>
                 </a>
               </div>
             </div>
