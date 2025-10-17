@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import imgImg20251005Wa292 from '../assets/2e5b9a5b8ca02d4fb9ffd5f9afab7141e67da507.png';
 import imgImg20251005Wa0017 from '../assets/effdbdbb5c3fa8282a059c98a3d6f13fb10c75ac.png';
 import imgImg20251005Wa18 from '../assets/f7838ee2a7add81b78ee9ce2489c339c419a7431.png';
-import imgImg20251005Wa19 from '../assets/715bda73f7f4293cf3256e0fb69be4ba056d0313.png';
+import imgImg20251005Wa19 from '../assets/715bda73f7f4293cf3256e0fb69be4ba056d0313.jpg';
 import imgImg20251005Wa293 from '../assets/c36d46e97c04e2ff1498c37afb601d61b899b3b2.png';
 import imgWeddingDholBandServicesInGurgaon72899606004 from '../assets/9f040347af9707bd04482706d59778037d5633ec.png';
 import imgImg20251005Wa00341 from '../assets/2132dd84b2f2160f3603220f1670daba7eff06b8.png';
@@ -12,10 +12,10 @@ const services = [
   { name: 'Vintage Car', image: imgImg20251005Wa292 },
   { name: 'Punjabi Dhol', image: imgImg20251005Wa0017 },
   { name: 'Turban Maker', image: imgImg20251005Wa18 },
-  { name: 'Shehnai and Chatar', image: imgImg20251005Wa19 },
+  { name: 'Shehnai', image: imgImg20251005Wa19 },
   { name: 'Band and Dhol', image: imgImg20251005Wa293 },
   { name: 'Lights', image: lightImage },
-  { name: 'Ghodi', image: imgWeddingDholBandServicesInGurgaon72899606004 },
+  { name: 'Ghodi and chhatar', image: imgWeddingDholBandServicesInGurgaon72899606004 },
   { name: 'Baggi', image: imgImg20251005Wa00341 }
 ];
 
