@@ -71,13 +71,7 @@ export function Footer() {
           <div className="flex flex-col gap-5">
             <h4 className="font-['Playfair_Display'] font-bold text-black">Let's Connect</h4>
             <div className="flex flex-col gap-6">
-              <div className="bg-[#faf6f3] px-5 py-4">
-                <input
-                  type="email"
-                  placeholder="Drop your mail.."
-                  className="bg-transparent text-base text-[#505050]/60 w-full outline-none"
-                />
-              </div>
+             
               <div className="flex flex-col gap-4">
                 <a
                   href="tel:+919639104422"
