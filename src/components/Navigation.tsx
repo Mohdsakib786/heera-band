@@ -82,7 +82,7 @@ export function Navigation() {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden mt-6 pb-6 flex flex-col gap-4">
+          <div className="lg:hidden mt-6 pb-6 flex flex-col gap-4 backdrop-blur-md bg-black/70 rounded-lg p-4">
             <button
               onClick={() => scrollToSection('home')}
               className="text-white font-['Lato'] uppercase text-left py-2 hover:text-[#968969] transition-colors"
