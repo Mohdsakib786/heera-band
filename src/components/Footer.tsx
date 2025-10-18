@@ -91,7 +91,7 @@ export function Footer() {
                   <span>+91 9639104422</span>
                 </a>
                 <a
-                  href="https://wa.me/919639104422"
+                  href="https://wa.me/916398952562"
                   className="flex items-center gap-3 text-black hover:text-[#968969] transition-colors"
                   target="_blank"
                   rel="noopener noreferrer"
