@@ -81,7 +81,7 @@ export function Footer() {
                   className="flex items-center gap-3 text-black hover:text-[#968969] transition-colors"
                 >
                   <MapPin size={20} />
-                  <span> Ramnagar, Uttarakhand, India</span>
+                  <span> Jim Corbett Ramnagar, Uttrakhand</span>
                 </a>
                 <a
                   href="tel:+919639104422"
@@ -103,7 +103,7 @@ export function Footer() {
                   <span>+91 6398952562</span>
                 </a>
                 <a
-                  href="mailto:info@Herraband.com"
+                  href="mailto:info@herraband.com"
                   className="flex items-center gap-3 text-black hover:text-[#968969] transition-colors"
                 >
                   <Mail size={20} />
