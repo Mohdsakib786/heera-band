@@ -32,12 +32,12 @@ export function Story() {
                 At Heera Band, we believe that every celebration deserves the perfect blend of music, tradition, and grandeur. With decades of experience in bringing joy to weddings and special events, we are proud to be one of the most trusted wedding bands in Ramnagar, Jim Corbett, Nainital, and across Uttarakhand.
               </p>
             </div>
-            <button
+            {/* <button
               onClick={() => scrollToSection('home')}
               className="bg-[#968969] px-10 py-5 text-[#faf6f3] font-medium uppercase w-fit hover:bg-[#7a6d54] transition-colors" data-aos="fade-up"
             >
               Know More
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

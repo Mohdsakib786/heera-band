@@ -4,7 +4,7 @@ exports.ConnectBanner = ConnectBanner;
 var b5a59300a7d1375f73bb4303dcf24ae38b1d16f3_png_1 = require("../assets/b5a59300a7d1375f73bb4303dcf24ae38b1d16f3.png");
 function ConnectBanner() {
     var handleContactClick = function () {
-        window.location.href = 'tel:+919876543210';
+        window.location.href = 'tel:+919639104422';
     };
     return (<section id="connect" className="relative lg:py-[150px] px-4 overflow-hidden my-16">
      <div className="py-12 bg-gradient-to-r from-[#faf6f3] via-white to-[#faf6f3]">

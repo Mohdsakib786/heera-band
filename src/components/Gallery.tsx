@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import { X } from 'lucide-react';
-import { motion, AnimatePresence } from "framer-motion";
+// import { useState } from 'react';
+// import { X } from 'lucide-react';
+// import { motion, AnimatePresence } from "framer-motion";
 import img2 from '../assets/bb8e44cbceb5594f25f5e77747b0823a0975d1da.png';
 import imgImg20251005Wa0027 from '../assets/aca18567fe22bce5c1a177f346c04acf5f2465fd.png';
 import imgImg20251005Wa21 from '../assets/ba520acd9eaeb42e427de0549615b741ab03aa2a.png';
@@ -13,7 +13,7 @@ import imgImg20251005Wa18 from '../assets/f7838ee2a7add81b78ee9ce2489c339c419a74
 // ...existing code...
 
 export function Gallery() {
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  // const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   return (
     <section id="gallery" className="bg-[#faf6f3] py-12 lg:py-24 px-4 lg:px-12" data-aos="fade-up">
@@ -28,39 +28,69 @@ export function Gallery() {
         </div>
 
         {/* Gallery Grid - matching Figma layout */}
-    <div className="gallery-grid">
-  <div className="gallery-item item-1" onClick={() => setSelectedImage(img2)}>
-    <img src={img2} alt="Gallery 1" />
-  </div>
-  <div className="gallery-item item-2" onClick={() => setSelectedImage(imgImg20251005Wa0027)}>
-    <img src={imgImg20251005Wa0027} alt="Gallery 2" />
-  </div>
-  <div className="gallery-item item-3" onClick={() => setSelectedImage(imgImg20251005Wa14)}>
-    <img src={imgImg20251005Wa14} alt="Gallery 3" />
-  </div>
-  <div className="gallery-item item-4" onClick={() => setSelectedImage(imgImg20251005Wa16)}>
-    <img src={imgImg20251005Wa16} alt="Gallery 4" />
-  </div>
-  <div className="gallery-item item-5" onClick={() => setSelectedImage(imgImg20251005Wa21)}>
-    <img src={imgImg20251005Wa21} alt="Gallery 5" />
-  </div>
-  <div className="gallery-item item-6" onClick={() => setSelectedImage(imgImg20251005Wa293)}>
-    <img src={imgImg20251005Wa293} alt="Gallery 6" />
-  </div>
-  <div className="gallery-item item-7" onClick={() => setSelectedImage(imgImg20251005Wa24)}>
-    <img src={imgImg20251005Wa24} alt="Gallery 7" />
-  </div>
-  <div className="gallery-item item-8" onClick={() => setSelectedImage(imgImg20251005Wa15)}>
-    <img src={imgImg20251005Wa15} alt="Gallery 8" />
-  </div>
-  <div className="gallery-item item-9" onClick={() => setSelectedImage(imgImg20251005Wa18)}>
-    <img src={imgImg20251005Wa18} alt="Gallery 9" />
-  </div>
-</div>
+        <div className="gallery-grid">
+          <div className="gallery-item item-1">
+            <img src={img2} alt="Gallery 1" />
+          </div>
+          <div className="gallery-item item-2">
+            <img src={imgImg20251005Wa0027} alt="Gallery 2" />
+          </div>
+          <div className="gallery-item item-3">
+            <img src={imgImg20251005Wa14} alt="Gallery 3" />
+          </div>
+          <div className="gallery-item item-4">
+            <img src={imgImg20251005Wa16} alt="Gallery 4" />
+          </div>
+          <div className="gallery-item item-5">
+            <img src={imgImg20251005Wa21} alt="Gallery 5" />
+          </div>
+          <div className="gallery-item item-6">
+            <img src={imgImg20251005Wa293} alt="Gallery 6" />
+          </div>
+          <div className="gallery-item item-7">
+            <img src={imgImg20251005Wa24} alt="Gallery 7" />
+          </div>
+          <div className="gallery-item item-8">
+            <img src={imgImg20251005Wa15} alt="Gallery 8" />
+          </div>
+          <div className="gallery-item item-9">
+            <img src={imgImg20251005Wa18} alt="Gallery 9" />
+          </div>
+        </div>
+
+        {/* <div className="gallery-grid">
+          <div className="gallery-item item-1" onClick={() => setSelectedImage(img2)}>
+            <img src={img2} alt="Gallery 1" />
+          </div>
+          <div className="gallery-item item-2" onClick={() => setSelectedImage(imgImg20251005Wa0027)}>
+            <img src={imgImg20251005Wa0027} alt="Gallery 2" />
+          </div>
+          <div className="gallery-item item-3" onClick={() => setSelectedImage(imgImg20251005Wa14)}>
+            <img src={imgImg20251005Wa14} alt="Gallery 3" />
+          </div>
+          <div className="gallery-item item-4" onClick={() => setSelectedImage(imgImg20251005Wa16)}>
+            <img src={imgImg20251005Wa16} alt="Gallery 4" />
+          </div>
+          <div className="gallery-item item-5" onClick={() => setSelectedImage(imgImg20251005Wa21)}>
+            <img src={imgImg20251005Wa21} alt="Gallery 5" />
+          </div>
+          <div className="gallery-item item-6" onClick={() => setSelectedImage(imgImg20251005Wa293)}>
+            <img src={imgImg20251005Wa293} alt="Gallery 6" />
+          </div>
+          <div className="gallery-item item-7" onClick={() => setSelectedImage(imgImg20251005Wa24)}>
+            <img src={imgImg20251005Wa24} alt="Gallery 7" />
+          </div>
+          <div className="gallery-item item-8" onClick={() => setSelectedImage(imgImg20251005Wa15)}>
+            <img src={imgImg20251005Wa15} alt="Gallery 8" />
+          </div>
+          <div className="gallery-item item-9" onClick={() => setSelectedImage(imgImg20251005Wa18)}>
+            <img src={imgImg20251005Wa18} alt="Gallery 9" />
+          </div>
+        </div> */}
       </div>
 
       {/* Lightbox */}
-      <AnimatePresence>
+      {/* <AnimatePresence>
         {selectedImage && (
           <motion.div
             initial={{ opacity: 0 }}
@@ -86,7 +116,7 @@ export function Gallery() {
             />
           </motion.div>
         )}
-      </AnimatePresence>
+      </AnimatePresence> */}
     </section>
   );
 }

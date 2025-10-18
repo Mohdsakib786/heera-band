@@ -2,7 +2,7 @@ import imgShapeLeft3 from '../assets/b5a59300a7d1375f73bb4303dcf24ae38b1d16f3.pn
 
 export function ConnectBanner() {
   const handleContactClick = () => {
-    window.location.href = 'tel:+919876543210';
+    window.location.href = 'tel:+919639104422';
   };
 
   return (
