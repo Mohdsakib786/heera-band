@@ -7,7 +7,7 @@ require("slick-carousel/slick/slick.css");
 require("slick-carousel/slick/slick-theme.css");
 require("./custom.css");
 var _5242b2e58ad5c4c7ce78e97b8095ee8179272091_png_1 = require("../assets/5242b2e58ad5c4c7ce78e97b8095ee8179272091.png");
-var _3d4e33797459d70535a21f7d3aa6175f0c97db00_png_1 = require("../assets/3d4e33797459d70535a21f7d3aa6175f0c97db00.png");
+var _3d4e33797459d70535a21f7d3aa6175f0c97db00_webp_1 = require("../assets/3d4e33797459d70535a21f7d3aa6175f0c97db00.webp");
 var slides = [
     {
         title: "Premier Wedding & Event Band in Jim Corbett",
@@ -22,7 +22,7 @@ var slides = [
     {
         title: "Making Your Event Unforgettable",
         description: "With decades of experience across Uttarakhand, we deliver excellence in every beat and celebration.",
-        image: _3d4e33797459d70535a21f7d3aa6175f0c97db00_png_1.default
+        image: _3d4e33797459d70535a21f7d3aa6175f0c97db00_webp_1.default
     }
 ];
 function HeroSlider() {
